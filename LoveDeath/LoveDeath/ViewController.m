@@ -23,6 +23,9 @@
     NSLog(@"开始2.0版本开发");
   
 }
+- (void)fixBug{
+    NSLog(@"修复1.0bug的1.1版本");
+}
 
 
 @end
