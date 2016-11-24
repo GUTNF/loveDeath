@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     NSLog(@"进行1.0版本开发");
+    NSLog(@"李四收到");
   
 }
 
