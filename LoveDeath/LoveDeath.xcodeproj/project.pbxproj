@@ -15,6 +15,7 @@
 		5D6CE8B31DE59FA900733F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CE8B11DE59FA900733F4B /* LaunchScreen.storyboard */; };
 		5D6CE8BE1DE59FA900733F4B /* LoveDeathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CE8BD1DE59FA900733F4B /* LoveDeathTests.m */; };
 		5D6CE8C91DE59FA900733F4B /* LoveDeathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CE8C81DE59FA900733F4B /* LoveDeathUITests.m */; };
+		5DEF5D401DE7DF7D007DDC84 /* libUMessage_Sdk_1.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF5D3D1DE7DF7D007DDC84 /* libUMessage_Sdk_1.4.0.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5D6CE8C41DE59FA900733F4B /* LoveDeathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveDeathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6CE8C81DE59FA900733F4B /* LoveDeathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveDeathUITests.m; sourceTree = "<group>"; };
 		5D6CE8CA1DE59FA900733F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEF5D3D1DE7DF7D007DDC84 /* libUMessage_Sdk_1.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.4.0.a; sourceTree = "<group>"; };
+		5DEF5D3F1DE7DF7D007DDC84 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DEF5D401DE7DF7D007DDC84 /* libUMessage_Sdk_1.4.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +105,7 @@
 		5D6CE8A21DE59FA900733F4B /* LoveDeath */ = {
 			isa = PBXGroup;
 			children = (
+				5DEF5D3C1DE7DF7D007DDC84 /* ceshiwenjain */,
 				5D6CE8A61DE59FA900733F4B /* AppDelegate.h */,
 				5D6CE8A71DE59FA900733F4B /* AppDelegate.m */,
 				5D6CE8A91DE59FA900733F4B /* ViewController.h */,
@@ -138,6 +143,23 @@
 				5D6CE8CA1DE59FA900733F4B /* Info.plist */,
 			);
 			path = LoveDeathUITests;
+			sourceTree = "<group>";
+		};
+		5DEF5D3C1DE7DF7D007DDC84 /* ceshiwenjain */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF5D3D1DE7DF7D007DDC84 /* libUMessage_Sdk_1.4.0.a */,
+				5DEF5D3E1DE7DF7D007DDC84 /* UMessage_Sdk_1.4.0 */,
+			);
+			path = ceshiwenjain;
+			sourceTree = "<group>";
+		};
+		5DEF5D3E1DE7DF7D007DDC84 /* UMessage_Sdk_1.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF5D3F1DE7DF7D007DDC84 /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.4.0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +450,11 @@
 				DEVELOPMENT_TEAM = GAZCER4D7C;
 				INFOPLIST_FILE = LoveDeath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoveDeath/UMessage_Sdk_1.4.0",
+					"$(PROJECT_DIR)/LoveDeath/ceshiwenjain",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinhehang.LoveDeath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -440,6 +467,11 @@
 				DEVELOPMENT_TEAM = GAZCER4D7C;
 				INFOPLIST_FILE = LoveDeath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoveDeath/UMessage_Sdk_1.4.0",
+					"$(PROJECT_DIR)/LoveDeath/ceshiwenjain",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinhehang.LoveDeath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -514,6 +546,7 @@
 				5D6CE8CF1DE59FA900733F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D6CE8D01DE59FA900733F4B /* Build configuration list for PBXNativeTarget "LoveDeathTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +555,7 @@
 				5D6CE8D21DE59FA900733F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D6CE8D31DE59FA900733F4B /* Build configuration list for PBXNativeTarget "LoveDeathUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +564,7 @@
 				5D6CE8D51DE59FA900733F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
