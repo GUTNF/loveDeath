@@ -27,5 +27,9 @@
     NSLog(@"修复1.0bug的1.1版本");
 }
 
+- (void)creatVesrin{
+    NSLog(@"2.0开发完毕");
+}
+
 
 @end
