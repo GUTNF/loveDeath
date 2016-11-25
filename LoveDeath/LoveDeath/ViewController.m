@@ -23,6 +23,7 @@
     NSLog(@"开始2.0版本开发");
   // https://github.com/GUTNF/loveDeath.git
     NSLog(@"我是李四");
+    NSLog(@"张三");
 }
 - (void)fixBug{
     NSLog(@"修复1.0bug的1.1版本");
