@@ -54,7 +54,7 @@
 		5D6CE8CA1DE59FA900733F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DEF5D3D1DE7DF7D007DDC84 /* libUMessage_Sdk_1.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.4.0.a; sourceTree = "<group>"; };
 		5DEF5D3F1DE7DF7D007DDC84 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
-		5DEF5D861DEAC4F0007DDC84 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		5DEF5D861DEAC4F0007DDC84 /* Hea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hea.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				5D6CE8A71DE59FA900733F4B /* AppDelegate.m */,
 				5D6CE8A91DE59FA900733F4B /* ViewController.h */,
 				5D6CE8AA1DE59FA900733F4B /* ViewController.m */,
-				5DEF5D861DEAC4F0007DDC84 /* Header.h */,
+				5DEF5D861DEAC4F0007DDC84 /* Hea.h */,
 				5D6CE8AC1DE59FA900733F4B /* Main.storyboard */,
 				5D6CE8AF1DE59FA900733F4B /* Assets.xcassets */,
 				5D6CE8B11DE59FA900733F4B /* LaunchScreen.storyboard */,
